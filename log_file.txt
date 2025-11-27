@@ -1,0 +1,17 @@
+commit 5657b952c2a87409b06607e91f1878fcdd7a1b07
+Author: Ahn Laurie Henry <ahn.lh2006@gmail.com>
+Date:   Thu Nov 27 17:02:03 2025 -0500
+
+    enigma works well
+
+commit 62596d2a14868c7dd37ff206f58f8205fa8f4156
+Author: Ahn Laurie Henry <ahn.lh2006@gmail.com>
+Date:   Tue Nov 18 17:53:39 2025 -0500
+
+    switch code to EnigmaFrame.java file
+
+commit f75d016ff281b1419489e06ba5c7d73495f3d3b7
+Author: Ahn Laurie Henry <ahn.lh2006@gmail.com>
+Date:   Mon Nov 17 15:07:33 2025 -0500
+
+    working on skeleton

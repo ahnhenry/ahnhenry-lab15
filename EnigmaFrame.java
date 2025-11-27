@@ -19,19 +19,20 @@ public class EnigmaFrame {
         JButton dec = new JButton("Decrypt");
 
         JLabel innertxt = new JLabel("Inner");
-        String innerOptions[] = {"1", "2", "3", "4", "5"};
-        JComboBox<String> innerBox = new JComboBox<>(innerOptions);
+            String innerOptions[] = {"1", "2", "3", "4", "5"};
+            JComboBox<String> innerBox = new JComboBox<>(innerOptions);
 
         JLabel midtxt = new JLabel("Middle");
-        String midOptions[] = {"1", "2", "3", "4", "5"};
-        JComboBox<String> midBox = new JComboBox<>(midOptions);
+            String midOptions[] = {"1", "2", "3", "4", "5"};
+            JComboBox<String> midBox = new JComboBox<>(midOptions);
 
         JLabel outtxt = new JLabel("Outer");
-        String outOptions[] = {"1", "2", "3", "4", "5"};
-        JComboBox<String> outBox = new JComboBox<>(outOptions);
+            String outOptions[] = {"1", "2", "3", "4", "5"};
+            JComboBox<String> outBox = new JComboBox<>(outOptions);
+
 
         JLabel iniPos = new JLabel("Initial Positions");
-        JTextField posTxt = new JTextField("", 3);
+            JTextField posTxt = new JTextField("", 3);
         
 
         JPanel inner = new JPanel(new BorderLayout());
@@ -102,9 +103,9 @@ public class EnigmaFrame {
                 String message = inp.getText();
 
                 String result = en.encrypt(message);
-                if(outp.getText() != null){
-                    outp.setText("");
-                }
+                    if(outp.getText() != null){
+                        outp.setText("");
+                    }
                 outp.setText(result);
 
             }
@@ -132,7 +133,6 @@ public class EnigmaFrame {
         f.pack();
         f.setVisible(true);
 
-        
     }
 
 }
