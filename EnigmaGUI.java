@@ -5,6 +5,6 @@ import java.util.concurrent.BlockingQueue;
 
 public class EnigmaGUI {
     public static void main(String args[]){
-        
+        new EnigmaFrame();
     }
 }

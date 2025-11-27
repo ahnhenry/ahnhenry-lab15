@@ -44,7 +44,7 @@ public class Enigma{
 
             results = results + finalChar;
             rotate();
-            System.out.println(results);
+            //System.out.println(results);
         }    
         return results;
     }
